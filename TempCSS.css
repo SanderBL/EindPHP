@@ -49,6 +49,16 @@ footer {
     object-position: bottom;
 }
 
+.teamU15 {
+  background-image: url("U15.jpg");
+  background-position: center;
+  overflow: hidden;
+  max-width: 100%; 
+  height: auto;
+}
+
+}
+
 
 /* Contactpagina */
 

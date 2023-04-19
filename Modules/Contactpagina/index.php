@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<link rel="stylesheet" href="TempCSS.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php
+    $moduleHTML = '
 
-<html>
-    <head>
-        <body>
-            <div class="Navigeerbalk">
-                <a href="HtmlTemp.html">Hoofdpagina</a>
-                <a href="HtmlTeams.html">Teams</a>
-                <a href="Htmloverons.html">Over ons</a>
-                <a class="Actief" href="HtmlContact.html">Contact</a>
-            </div>
-
-
-            <div class="Header-foto">
-                <img src="Stadion.jpg">
-            </div>
-
-            <div class="container">
+    <div class="container">
                 <form action="/action_page.php">
                   <label for="fname">First Name</label>
                   <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -37,20 +21,7 @@
               
                   <input type="submit" value="Submit">
                 </form>
-              </div>
+    </div> ';
 
-
-            <footer>
-                <p> Gemaakt door: Sander Blokzijl </p>
-            </footer>
-
-        </body>   
-    </head>
-
-
- 
-
-    <script>
-
-    </script>
-</html>
+    return $moduleHTML;
+?>
